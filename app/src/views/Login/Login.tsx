@@ -6,6 +6,7 @@ import { getToken } from '../../entities/oAuth/service';
 import { connect } from 'react-redux';
 import { storeAthlete } from '../../entities/athlete/actions';
 import { Athlete } from '../../entities/athlete/modele';
+import { AppUrl } from '../../App';
 
 interface Props {
     location: {
